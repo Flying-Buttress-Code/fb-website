@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Flying Buttress abstract architectural symbol">
+<path d="M7 72V35H22V72H7Z" fill="#F1EFE8"/>
+<path d="M57 72V8H73V72H57Z" fill="#F1EFE8"/>
+<path d="M19 36C37 35 49 27 59 18" stroke="#F1EFE8" stroke-width="9" stroke-linejoin="round" fill="none"/>
+<path d="M21 56L57 45V57L21 69Z" fill="#EF7054"/>
+<path d="M7 72H73" stroke="#F1EFE8" stroke-width="3"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 540" role="img" aria-label="Before: three disconnected office environments. After: three offices connecting through one cloud-first environment.">
+<rect width="1100" height="540" fill="#EBE8E0"/>
+<g stroke="#BFC7BF" stroke-width="1" opacity=".55"><path d="M0 90H1100M0 180H1100M0 270H1100M0 360H1100M0 450H1100M110 0V540M220 0V540M330 0V540M440 0V540M550 0V540M660 0V540M770 0V540M880 0V540M990 0V540"/></g>
+<g font-family="Arial,Helvetica,sans-serif" letter-spacing="2.2" fill="#173540" font-size="17"><text x="60" y="76">BEFORE</text><text x="610" y="76">AFTER</text></g>
+<path d="M545 55V488" stroke="#BEC4BC" stroke-width="2" stroke-dasharray="8 8"/>
+<g fill="#FFFCF5" stroke="#1D3A46" stroke-width="2"><rect x="93" y="148" width="143" height="102"/><rect x="303" y="148" width="143" height="102"/><rect x="198" y="332" width="143" height="102"/></g>
+<g fill="#E46E56"><rect x="117" y="170" width="94" height="17"/><rect x="327" y="170" width="94" height="17"/><rect x="222" y="354" width="94" height="17"/></g>
+<g stroke="#526C74" stroke-width="2"><path d="M164 250v42M375 250v42M271 332v-40"/></g>
+<g font-family="Arial,sans-serif" font-size="15" fill="#173540"><text x="140" y="218">Office 01</text><text x="352" y="218">Office 02</text><text x="246" y="405">Office 03</text></g>
+<g stroke="#F06D51" stroke-width="2.4" stroke-dasharray="7 7"><path d="M236 200h65M272 292v40"/></g>
+<circle cx="845" cy="280" r="120" fill="#163A47"/><circle cx="845" cy="280" r="97" fill="none" stroke="#A9D0C5" stroke-width="1.5" opacity=".5"/>
+<path d="M801 301h89a34 34 0 0 0 2-68 49 49 0 0 0-93-10 39 39 0 0 0 2 78Z" fill="none" stroke="#FCF8EE" stroke-width="6"/>
+<path d="M845 252v73m-18-17 18 18 18-18" fill="none" stroke="#F0795F" stroke-width="6"/>
+<g fill="none" stroke="#F0795F" stroke-width="3"><path d="M732 204 667 150H619M957 207l65-58h39M777 389l-53 65h-84"/></g>
+<g fill="#FCF8EE" stroke="#183540" stroke-width="2"><rect x="607" y="117" width="67" height="61"/><rect x="1020" y="117" width="67" height="61"/><rect x="606" y="432" width="67" height="61"/></g>
+<g fill="#E46E56"><path d="M623 128h35v9h-35zM1036 128h35v9h-35zM622 443h35v9h-35z"/></g>
+<g font-family="Arial,sans-serif" fill="#173540" font-size="12"><text x="616" y="166">01</text><text x="1030" y="166">02</text><text x="616" y="480">03</text></g>
+</svg>
