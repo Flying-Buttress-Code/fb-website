@@ -14,26 +14,6 @@
   });
   document.addEventListener('keydown',function(event){ if(event.key==='Escape'){menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open menu');nav.classList.remove('open');}});
  }
- const testimonials=[
-  {text:'The Flying Buttress team are masters of strategic planning. They understand how architects work and the challenges they face while actively seeking innovative solutions to improve their efficiency.',name:'Jonathan Ludwig',title:'BIM Manager, Studio 111'},
-  {text:'Flying Buttress\u2019s technicians understand our problems and needs. They \u201cget\u201d the AEC industry.',name:'John Robinson',title:'COO, KTGY'},
-  {text:'Their experience not only with IT, but IT within an AEC firm sets them apart from their competitors.',name:'Mike Rinken',title:'Director of IT, Mazzetti'}
- ];
- const quote = document.getElementById('quote-text');
- const credit = document.getElementById('quote-credit');
- if (quote && credit){
-  let index=0;
-  document.querySelectorAll('[data-quote]').forEach(function(button){
-   button.addEventListener('click',function(){
-    index=(index+(button.dataset.quote==='next'?1:-1)+testimonials.length)%testimonials.length;
-    const selected=testimonials[index];
-    quote.textContent=selected.text;
-    credit.textContent=selected.name;
-    const role=document.createElement('span'); role.textContent=selected.title;
-    credit.appendChild(role);
-   });
-  });
- }
  const form=document.getElementById('contact-form');
  if(form){
   const status=document.getElementById('form-status');
