@@ -98,11 +98,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 <a class="text-cta" href="work.html">See the transformation <span class="arrow">↗</span></a>
 </div>
 </div></section>
-<section class="quote-section"><div class="container quote-layout"><div class="quote-side"><div aria-hidden="true" class="quote-giant">“</div><div class="eyebrow">In our clients' words</div></div><div>
-<blockquote class="quote-text" id="quote-text">The Flying Buttress team are masters of strategic planning. They understand how architects work and the challenges they face while actively seeking innovative solutions to improve their efficiency.</blockquote>
-<div class="quote-credit" id="quote-credit">Jonathan Ludwig <span>BIM Manager, Studio 111</span></div>
-<div class="quote-controls"><button aria-label="Previous testimonial" data-quote="prev" type="button">←</button><button aria-label="Next testimonial" data-quote="next" type="button">→</button></div>
-</div></div></section>
 <section class="insight-section"><div class="container"><div class="section-top"><div><div class="eyebrow eyebrow-plus">Ideas, not just infrastructure</div><h2 class="section-heading">A point of view on<br/><span class="serif">what's next.</span></h2></div><a class="text-cta" href="insights.html">More perspectives <span class="arrow">↗</span></a></div>
 <div class="insight-grid">
 <a class="insight-card featured" href="https://www.aecplustech.com/blog/what-architecture-firms-need-from-it-" rel="noopener noreferrer" target="_blank"><span class="tag">Featured interview / April 2026</span><span aria-hidden="true" class="index">01.</span><h3>What architecture firms actually need from IT</h3><p>On why most technology support misses the point, and what a design-native partner should understand.</p><div class="bottom"><span>Read on aec+tech</span><span class="arrow">↗</span></div></a>
@@ -138,26 +133,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
    link.addEventListener('click',function(){ menu.setAttribute('aria-expanded','false'); menu.setAttribute('aria-label','Open menu'); nav.classList.remove('open');});
   });
   document.addEventListener('keydown',function(event){ if(event.key==='Escape'){menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open menu');nav.classList.remove('open');}});
- }
- const testimonials=[
-  {text:'The Flying Buttress team are masters of strategic planning. They understand how architects work and the challenges they face while actively seeking innovative solutions to improve their efficiency.',name:'Jonathan Ludwig',title:'BIM Manager, Studio 111'},
-  {text:'Flying Buttress\u2019s technicians understand our problems and needs. They \u201cget\u201d the AEC industry.',name:'John Robinson',title:'COO, KTGY'},
-  {text:'Their experience not only with IT, but IT within an AEC firm sets them apart from their competitors.',name:'Mike Rinken',title:'Director of IT, Mazzetti'}
- ];
- const quote = document.getElementById('quote-text');
- const credit = document.getElementById('quote-credit');
- if (quote && credit){
-  let index=0;
-  document.querySelectorAll('[data-quote]').forEach(function(button){
-   button.addEventListener('click',function(){
-    index=(index+(button.dataset.quote==='next'?1:-1)+testimonials.length)%testimonials.length;
-    const selected=testimonials[index];
-    quote.textContent=selected.text;
-    credit.textContent=selected.name;
-    const role=document.createElement('span'); role.textContent=selected.title;
-    credit.appendChild(role);
-   });
-  });
  }
  const form=document.getElementById('contact-form');
  if(form){
